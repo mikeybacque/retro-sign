@@ -36,5 +36,6 @@ svg {
 }
 
 .active {
-
+  fill: #f60;
+  transition: 1s ease;
 }
