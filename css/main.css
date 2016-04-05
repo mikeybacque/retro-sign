@@ -39,3 +39,18 @@ svg {
   fill: #f60;
   transition: 1s ease;
 }
+
+.active2 .lines path {
+  animation: lines 1s linear forwards;
+}
+
+@keyframes lines {
+
+  0% {
+    stroke-dasharray: 0, 480;
+  }
+
+  100% {
+    stroke-dasharray: 480, 480;
+  }
+}

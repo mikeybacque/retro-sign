@@ -2,6 +2,6 @@ $('.btn').on('mouseover', function () {
   $('.btn path:nth-child(2)').addClass('active');
 });
 
-$('.btn').on('click', function () {
-  $('').addClass('');
+$('svg').on('click', function () {
+  $('svg').toggleClass('active2')
 });
