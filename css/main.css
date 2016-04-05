@@ -40,6 +40,11 @@ svg {
   transition: 1s ease;
 }
 
+.btn:active {
+  fill: #f60;
+  transition: 1s ease;
+}
+
 .active2 .lines path {
   animation: lines 1s linear forwards;
 }
@@ -53,4 +58,39 @@ svg {
   100% {
     stroke-dasharray: 480, 480;
   }
+}
+
+.active2 .engage path {
+  transition: all 1s linear;
+  fill: #f60;
+}
+
+.active4 path:nth-child(1) {
+  fill: #f60;
+  transition-delay: .5s;
+}
+
+.active4 path:nth-child(6) {
+  fill: #f60;
+  transition-delay: .5s;
+}
+
+.active4 path:nth-child(2) {
+  fill: #f60;
+  transition-delay: .75s;
+}
+
+.active4 path:nth-child(5) {
+  fill: #f60;
+  transition-delay: .75s;
+}
+
+.active4 path:nth-child(3) {
+  fill: #f60;
+  transition-delay: 1s;
+}
+
+.active4 path:nth-child(4) {
+  fill: #f60;
+  transition-delay: 1s;
 }

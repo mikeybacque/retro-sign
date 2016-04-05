@@ -3,5 +3,7 @@ $('.btn').on('mouseover', function () {
 });
 
 $('svg').on('click', function () {
-  $('svg').toggleClass('active2')
+  $('svg').toggleClass('active2');
+  $('.lines').toggleClass('active3');
+  $('.engage').toggleClass('active4');
 });
